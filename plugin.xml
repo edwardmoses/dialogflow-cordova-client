@@ -49,7 +49,7 @@
     <!-- Android -->
 
     <platform name="android">
-        <config-file target="config.xml" parent="/*">
+        <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ApiAIPlugin">
                 <param name="android-package" value="ai.api.ApiAiPlugin"/>
             </feature>
