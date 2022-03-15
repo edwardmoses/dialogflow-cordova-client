@@ -71,8 +71,8 @@
         <framework src="com.google.code.gson:gson:2.3" />
         <framework src="commons-io:commons-io:2.4" />
 
-        <source-file src="src/android/ApiAiPlugin.java" target-dir="src/ai/api" />
-        <source-file src="libs/ailib.jar" target-dir="libs" />
+        <resource-file src="src/android/ApiAiPlugin.java" target-dir="src/ai/api" />
+        <resource-file src="libs/ailib.jar" target-dir="libs" />
     </platform>
 
 </plugin>
